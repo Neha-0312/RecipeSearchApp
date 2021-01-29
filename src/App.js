@@ -25,7 +25,7 @@ const App = () => {
 
 	const updateSearch = (event) => {
 		setSearch(event.target.value);
-		console.log(search);
+		//console.log(search);
 	};
 
 	const finalSearch = (event) => {
