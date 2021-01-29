@@ -1,0 +1,33 @@
+.recipe {
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px rgb(71,71,71);
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+    align-items: center;
+    min-width: 40%;
+    color: white;
+}
+
+.image {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+}
+
+.subdiv {
+    min-height: 5vh;
+    display: flex;
+}
+
+.button {
+    background-image: linear-gradient(to right, #eea2a2 0%, #bbc1bf 19%, #57c6e1 42%, #b49fda 79%, #7ac5d8 100%);
+}
